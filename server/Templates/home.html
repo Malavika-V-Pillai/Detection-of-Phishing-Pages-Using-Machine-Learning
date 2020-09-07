@@ -1,0 +1,17 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Something Phishy</title>
+        <script>
+            function f() {		return document.getElementById("demo").value =  window.location.href;	}
+        </script>
+    </head>
+    <Body onload="javascript:f()">
+        <form action="" method=POST >
+            {% csrf_token %}
+            <input hidden type='text' id='demo' name="url">
+            
+            <input type='submit'>
+        </form>
+        {{url}}
+    </Body>
