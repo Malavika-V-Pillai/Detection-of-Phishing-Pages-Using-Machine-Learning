@@ -1,0 +1,4 @@
+# Detection-of-Phishing-Pages-Using-Machine-Learning
+Phishing website is one of the internet security problems that target the human vulnerabilities rather than software vulnerabilities. It can be described as the process of attracting online users to obtain their sensitive information such as usernames and passwords. Here, we offer an intelligent system for detecting phishing websites. The system acts as an additional functionality to an internet browser as an
+extension that notifies the user when it detects a phishing website. The system is based on a machine learning method, particularly supervised learning. We have selected the Random Forest technique due to its good performance in classification.
+Our focus is to pursue a higher performance classifier by studying the features of phishing website and choose the better combination of them to train the classifier.
